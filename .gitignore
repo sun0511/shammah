@@ -1,7 +1,6 @@
 *.pyc
 *~
-__pycache__
-myvenv
+_pycache_
 db.sqlite3
-/static
 .DS_Store
+secret.json

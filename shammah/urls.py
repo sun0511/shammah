@@ -5,6 +5,5 @@ from shammah.schema import schema
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path(r'^graphql$', GraphQLView.as_view(graphiql=True, schema=schema))
-
+    re_path(r'^graphql/$', GraphQLView.as_view(graphiql=True, schema=schema)),
 ]
